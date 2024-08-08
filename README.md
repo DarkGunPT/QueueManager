@@ -14,14 +14,17 @@ type Flight struct {
 ## Push
 
 This method will take in a Flight and push the flight onto the back of our Items queue.
+
 ```func (q *Queue) Push(f Flight)```
 
 ## Peek
 
 This method will allow us to view what item is at the front of our queue but not modify the underlying stack values.
+
 ```func (q *Queue) Peek() Flight```
 
 ## Pop
 
 This method will allow us to pop an element off the front of our Items queue and return to us the first flight.
+
 ```func (q *Queue) Pop() Flight```
