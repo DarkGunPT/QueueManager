@@ -1,7 +1,10 @@
 # QueueManager
 In this repo i'm going to be implementing some of the basic functionality of the Queue data structure in Go.
-```type Queue struct{}```
-
+```
+type Consumer struct {
+	queue []Flight
+}
+```
 The struct i will use in the queue is the struct Flight:
 ```
 type Flight struct {
@@ -28,3 +31,13 @@ This method will allow us to view what item is at the front of our queue but not
 This method will allow us to pop an element off the front of our Items queue and return to us the first flight.
 
 ```func (q *Queue) Pop() Flight```
+
+## IsEmpty
+
+This method will allow us to check if the queue is empty and if so return true
+
+```func (c *Consumer) IsEmpty() bool```
+
+## Tests
+
+We have a tests folder where we can do every test to check if the code is working like he is supposed to work
