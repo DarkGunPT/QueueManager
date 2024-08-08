@@ -45,17 +45,19 @@ We have a tests folder where we can do every test to check if the code is workin
 ## Output
 
 ```
-2024/08/08 03:16:49 Doing a Push
-2024/08/08 03:16:49 Doing a Peek
-2024/08/08 03:16:49 The first flight in the queue is: consumers.Flight{Origin:"Porto", Destination:"London", Price:45}
-2024/08/08 03:16:49 The queue is: []consumers.Flight{consumers.Flight{Origin:"Porto", Destination:"London", Price:45}, consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85}, consumers.Flight{Origin:"London", Destination:"Porto", Price:55}}
-2024/08/08 03:16:49 Doing a Pop
-2024/08/08 03:16:49 Removing fly: consumers.Flight{Origin:"Porto", Destination:"London", Price:45} from queue
-2024/08/08 03:16:49 The queue is: []consumers.Flight{consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85}, consumers.Flight{Origin:"London", Destination:"Porto", Price:55}}
-2024/08/08 03:16:49 Doing a Peek
-2024/08/08 03:16:49 The first flight in the queue is: consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85}
-2024/08/08 03:16:49 The queue is: []consumers.Flight{consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85}, consumers.Flight{Origin:"London", Destination:"Porto", Price:55}}
-2024/08/08 03:16:49 Doing a Pop
-2024/08/08 03:16:49 Removing fly: consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85} from queue
-2024/08/08 03:16:49 The queue is: []consumers.Flight{consumers.Flight{Origin:"London", Destination:"Porto", Price:55}}
+2024/08/08 03:39:42 Doing a Push
+2024/08/08 03:39:42 Doing a Push
+2024/08/08 03:39:42 Doing a Push
+2024/08/08 03:39:42 Doing a Peek
+2024/08/08 03:39:42 The first flight in the queue is: consumers.Flight{Origin:"Porto", Destination:"London", Price:45}
+2024/08/08 03:39:42 The queue is: []consumers.Flight{consumers.Flight{Origin:"Porto", Destination:"London", Price:45}, consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85}, consumers.Flight{Origin:"London", Destination:"Porto", Price:55}}
+2024/08/08 03:39:42 Doing a Pop
+2024/08/08 03:39:42 Removing fly: consumers.Flight{Origin:"Porto", Destination:"London", Price:45} from queue
+2024/08/08 03:39:42 The queue is: []consumers.Flight{consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85}, consumers.Flight{Origin:"London", Destination:"Porto", Price:55}}
+2024/08/08 03:39:42 Doing a Peek
+2024/08/08 03:39:42 The first flight in the queue is: consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85}
+2024/08/08 03:39:42 The queue is: []consumers.Flight{consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85}, consumers.Flight{Origin:"London", Destination:"Porto", Price:55}}
+2024/08/08 03:39:42 Doing a Pop
+2024/08/08 03:39:42 Removing fly: consumers.Flight{Origin:"Lisbon", Destination:"London", Price:85} from queue
+2024/08/08 03:39:42 The queue is: []consumers.Flight{consumers.Flight{Origin:"London", Destination:"Porto", Price:55}}
 ```
